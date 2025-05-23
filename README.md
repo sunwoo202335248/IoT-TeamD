@@ -1,5 +1,6 @@
 # 💪 PushBarX – 실시간 자세 교정 및 생체 데이터 기반 IoT 푸시업 보조 시스템
 
+시연영상 바로가기
 [![시연 영상 바로가기](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube)](https://youtu.be/yhWr8rOICiI)
 
 ## 👥 팀명: [D조] PushBarX  
