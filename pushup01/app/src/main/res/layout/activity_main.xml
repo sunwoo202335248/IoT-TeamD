@@ -1,0 +1,43 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 카메라 프리뷰 -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 포즈 오버레이 (프리뷰 위에 겹침) -->
+    <com.example.pushup01.PoseOverlayView
+        android:id="@+id/poseOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 푸쉬업 카운터 표시 -->
+    <TextView
+        android:id="@+id/counterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pushups: 0"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="16dp"
+        android:layout_gravity="top|end" />
+
+    <!-- ✅ 피드백 메시지 표시용 TextView -->
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fix Form"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FF4444"
+        android:background="#AA000000"
+        android:padding="12dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:visibility="visible" />
+</FrameLayout>
