@@ -6,6 +6,9 @@
 ## 👥 팀명: [D조] PushBarX  
 
 ---
+![0603(1)](https://github.com/user-attachments/assets/0d3c8028-5561-476d-acbf-de1c0c595576)
+
+
 
 ## 📘 구현 목적 (Implementation Purpose)
 
